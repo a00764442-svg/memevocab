@@ -1,0 +1,12 @@
+{
+  "name": "memevocab-prototype",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/run.ts",
+    "test": "node --import tsx --test src/match.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "tesseract.js": "5.1.1" },
+  "devDependencies": { "tsx": "^4.19.0", "typescript": "^5.6.0", "@types/node": "^22.0.0" }
+}
